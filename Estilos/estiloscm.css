@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Imagenes/fondoConoce.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+header{
+    height: 150px;
+}
+.navprincipal {
+    list-style-type: none;
+    position: relative;
+}
+
+.navprincipal li{
+    padding: 10px;
+    margin: 10px;  
+    position: absolute;
+    text-align: center;
+    
+}
+
+.logonav{
+    width: 140px;
+    top: 10px;
+    
+}
+
+.boton{
+    height: 45px;
+    top: 15px;
+}
+
+.enlace {
+    color: black;
+    padding: 8px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: #ffba60;
+    opacity: .8;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.enlace:hover {
+    background-color: #ffba60;
+    opacity: 1;
+}
+
+.Inicio{
+    left: 15%;
+}
+
+.Historia{
+    left: 25%;
+}
+
+.Datos{
+    left: 36%;
+}
+
+.Conoce{
+    left: 50%;
+}
+
+.Donde{
+    left: 70%;
+}
+
+.Nosotros{
+    left: 85%;
+}
+
+.intro{
+    padding: 20px;
+    margin: 20px 40px;
+    color: white;
+}
+
+.sub{
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.bold{
+    display: inline;
+    font-weight: 800;
+}
+
+.titulo{
+    font-size: 85px;
+    margin: 15px 0;
+}
+
+.textintro{
+    font-size: 27px;
+    font-weight: 200;
+}
+.info{
+    margin: 100px 0 25px 25px;
+    padding: 100px 0 35px 35px;
+}
+.subinfo{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.subinfo2{
+    font-size: 40px;
+}
+.textinfo{
+    font-size: 40px;
+}
+.infocm{
+    display: flex;
+    align-items: center;
+}
+.imagenescm{
+    width: 620px;
+    margin-left: 100px;
+  
+}
+.imgcm{
+    width: 300px;
+    border-radius: 50px;
+}
+.textcm{
+    margin-left: 90px;
+    font-size: 28px;
+}
+.video{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+.videocm{
+    width: 850px;
+    height: 595px;
+    border: solid 10px orange;
+    border-radius: 100px;
+}
+footer{
+    margin-top: 50px;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: orange;
+    
+}
+.tf{
+    font-size: 32px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.textfooter{
+    position: absolute;
+    left: 39%;
+    top: 30px;
+}
+
+.footer{
+    height: 155px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.redesfooter{
+   width: 100px;
+}

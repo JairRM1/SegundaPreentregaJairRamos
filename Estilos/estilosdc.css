@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Imagenes/fondoDatos.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.navprincipal {
+    list-style-type: none;
+    position: relative;
+}
+
+.navprincipal li{
+    padding: 10px;
+    margin: 10px;  
+    position: absolute;
+    text-align: center;
+}
+
+.logonav{
+    width: 140px;
+    top: 10px;
+}
+.icono{
+     display: none;   
+}
+.iconoch{
+    display: none;
+}
+.boton{
+    height: 45px;
+    top: 15px;
+}
+
+.enlace {
+    color: black;
+    padding: 8px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: pink;
+    opacity: .8;
+    border-radius: 15px;
+    font-size: 1.5vw;
+}
+
+.enlace:hover {
+    background-color: pink;
+    opacity: 1;
+}
+
+.Inicio{
+    left: 15%;
+    width: 12%;
+}
+
+.Historia{
+    left: 25%;
+    width: 12%;
+}
+
+.Datos{
+    left: 36%;
+    width: 15%;
+}
+
+.Conoce{
+    left: 50%;
+    width: 14%;
+}
+
+.Donde{
+    left: 70%;
+    width: 18%;
+}
+
+.Nosotros{
+    left: 85%;
+    width: 12%;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+}
+
+.intro{
+    padding: 1.3vw;
+    margin: 1.3vw 2.8vw;
+    color: white;
+}
+
+.sub{
+    font-size: 3.3vw;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.bold{
+    display: inline;
+    font-weight: 800;
+}
+
+.titulo{
+    font-size: 6.3vw;
+    margin: 1vw 0;
+}
+
+.textintro{
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+.info{
+    margin: 8vw 0 2vw 2vw;
+    padding: 8vw 0 2.5vw 2.5vw;
+}
+.subinfo{
+    font-size: 4vw;
+    padding-bottom: 1vw;
+}
+.subinfo2{
+    font-size: 3vw;
+}
+.textinfo{
+    font-size: 3vw;
+}
+
+.textvideo{
+    display: inline-block;
+    margin-left: 3vw;
+    font-size: 3vw;
+}
+
+.videoToño{
+    width: 55%;
+    height: 35vw;
+    margin-left: 4vw;
+    border: solid .7vw pink;
+    border-radius: 8vw;
+}
+
+.imgMaguey{
+    margin: 2vw auto;
+    padding: 2vw;
+    width: 55vw;
+    height: 55vw;
+    background-color: pink;
+    border-radius: 10vw;
+}
+
+.textMaguey{
+    margin-left: 38vw;
+    font-size: 2vw;
+}
+
+footer{
+    position: relative;
+    margin-top: 3vw;
+    height: 15vw;
+    width: 100%;
+    background-color: pink;
+    
+}
+.tf{
+    font-size: 2.2vw;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.textfooter{
+    position: absolute;
+    left: 39%;
+    top: 1vw;
+    
+}
+
+.footer{
+    height: 15vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.redesfooter{
+   width: 7vw;
+   padding: 2vw 0;
+}
+@media screen and (max-width: 1080px) {
+    .navprincipal {
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .navprincipal li{
+        position: inherit;
+        width: 20% ;
+
+    }
+    .boton{
+        left: 0;
+    }
+    
+    .Donde{
+        display: none;
+    }
+    
+    .Nosotros{
+        display: none;
+    }
+    .logonav{
+        width: 100px;
+    }
+    header{
+        height: 100px;
+        width: 100%;
+    }
+  
+}
+
+@media only screen and (max-width: 750px) {
+    header{
+        height: 20px;
+        position: fixed;
+        z-index: 100;
+    }
+    .icono{
+        display: inline-block; 
+        position: relative;
+        left: 90%;
+        width: 3vw;
+        cursor: pointer;
+   }
+   .navprincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(70, 82, 30, .8);
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    transition: all .5s;
+   }
+   .enlace {
+    font-size: 5vw;
+    border-radius: 50px;
+    display: inline-block;
+    width: 80%;
+}
+.boton{
+    height: auto;
+}
+
+   #check:checked ~ .navprincipal{
+    left: 0;
+   }
+
+   .boton{
+    top: 0;
+  }
+   .log{
+    display: none;
+   }
+   .Donde{
+    display: inline-block;
+  }
+
+  .Nosotros{
+    display: inline-block;
+    
+  }
+ .navprincipal li{
+    width: 100% ;
+ }
+ .intro{
+    padding-top: 7vw;
+ }
+ main{
+    display: flex;
+    flex-direction: column;
+ }
+}

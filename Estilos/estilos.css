@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Imagenes/Portada\ Index.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.navprincipal {
+    list-style-type: none;
+    position: relative;
+}
+
+.navprincipal li{
+    padding: 10px;
+    margin: 10px;  
+    position: absolute;
+    text-align: center;
+}
+
+.logonav{
+    width: 140px;
+    top: 10px;
+}
+.icono{
+     display: none;   
+}
+.iconoch{
+    display: none;
+}
+.boton{
+    height: 45px;
+    top: 15px;
+}
+
+.enlace {
+    color: black;
+    padding: 8px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: #a5cf61;
+    opacity: .8;
+    border-radius: 15px;
+    font-size: 1.5vw;
+}
+
+.enlace:hover {
+    background-color: #a5cf61;
+    opacity: 1;
+}
+
+.Inicio{
+    left: 15%;
+    width: 12%;
+}
+
+.Historia{
+    left: 25%;
+    width: 12%;
+}
+
+.Datos{
+    left: 36%;
+    width: 15%;
+}
+
+.Conoce{
+    left: 50%;
+    width: 14%;
+}
+
+.Donde{
+    left: 70%;
+    width: 18%;
+}
+
+.Nosotros{
+    left: 85%;
+    width: 12%;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+}
+
+.bebida{
+    margin: 0 4%;
+    padding: 10px 4%;
+    font-size: 3vw;
+    font-weight:100;
+    color: white;
+}
+
+
+.underline{
+    text-decoration: underline;
+}
+
+.bold{
+    font-weight: bold;
+    display: inline;
+}
+
+h1{
+    margin: 0px 4%;
+    padding: 0px 4%;
+    font-size: 5.5vw;
+    font-weight:bolder;
+    color: #46521e;
+}
+
+.descubre{
+    margin: 0px 4%;
+    padding: 10px 4%;
+    font-size: 1.9vw;
+    font-weight:200;
+    color: #46521e;
+}
+
+.eventos{
+    margin: 7% 0 0 7%;
+    padding: 5% 0 0 4%;
+    font-size: 3.7vw;
+    font-weight:500;
+    color: #46521e;
+
+}
+
+.durante{
+    margin: 0px 7% 2% 7%;
+    padding: 10px 4%;
+    font-size: 2.2vw;
+    font-weight:400;
+    color: #8ba33c;
+    
+}
+
+.eventos2{
+    margin-bottom: 3%;
+    display: grid;
+    width: 100%;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.imE{
+    width: 70%;
+}
+.TextE{
+    height: 8%;
+    position: relative;
+    top: -2vw;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.T1{
+    font-size: 1.4vw;
+    line-height: 100%;
+    background-color: #46521e;
+}
+.T2{
+    font-size: 2.5vw;
+    line-height: 180%;
+    background-color: #8ba33c;
+}
+.T3{
+    font-size: 2.2vw;
+    line-height: 100%;
+    background-color: #b9c88a;
+}
+.x{
+    background-color: #46521e;
+}
+
+.y{
+    background-color: #8ba33c;
+}
+.z{
+    background-color: #b9c88a;
+}
+.TextE2{
+    height: 9%;
+    border-radius: 50px;
+    text-align: center;
+    width: 60%;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+   
+}
+.galeria{
+    text-align: center;
+}
+.imggal{
+    width: 75%;
+}
+.info{
+    width: 100%;
+    position:absolute;
+}
+.circinfo{
+    position: absolute;
+    background-color: #46521e;
+    width: 35%;
+    height: 35vw;
+    border-radius: 50%;
+    left: 11%;
+   
+}
+.textinfo{
+    position: relative;
+    text-align: center;
+    color: white;
+ 
+}
+.textinfob{
+    position: absolute;
+    top: 2.5vw;
+    left: 9vw;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+.textinfon{
+    position: absolute;
+    top: 12vw;
+    left: 5vw;
+    font-size: 1.6vw;
+}
+
+.imginfo{
+    width: 50%;
+    position: absolute;
+    left: 40%;
+}
+.botoninfo{
+    height: 3.5vw;
+    position: absolute;
+    background-color: rgb(2, 41, 2);
+    border-radius: 50px;
+    text-align: center;
+    width: 15vw;
+    left: 20vw;
+    top: 32vw;
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    position: relative;
+    top: 38vw;
+    height: 15vw;
+    width: 100%;
+    background-color: #dbecc0;
+    
+}
+.tf{
+    font-size: 2.2vw;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+.textfooter{
+    position: absolute;
+    left: 39%;
+    top: 1vw;
+    
+}
+
+.footer{
+    height: 15vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.redesfooter{
+   width: 7vw;
+   padding: 2vw 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .navprincipal {
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .navprincipal li{
+        position: inherit;
+        width: 20% ;
+
+    }
+    .boton{
+        left: 0;
+    }
+    
+    .Donde{
+        display: none;
+    }
+    
+    .Nosotros{
+        display: none;
+    }
+    .logonav{
+        width: 100px;
+    }
+    header{
+        height: 100px;
+        width: 100%;
+    }
+  
+}
+
+@media only screen and (max-width: 750px) {
+    header{
+        height: 20px;
+        position: fixed;
+        z-index: 100;
+    }
+    .bebida{
+        margin-top: 5%;
+    }
+    .icono{
+        display: inline-block; 
+        position: relative;
+        left: 90%;
+        width: 3vw;
+        cursor: pointer;
+   }
+   
+   .navprincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(70, 82, 30, .8);
+    width: 100%;
+    height: 100%;
+    top:20px;
+    left: -100%;
+    transition: all .5s;
+   }
+   .enlace {
+    font-size: 5vw;
+    border-radius: 50px;
+    display: inline-block;
+    width: 80%;
+}
+.boton{
+    height: auto;
+}
+
+   #check:checked ~ .navprincipal{
+    left: 0;
+   }
+
+   .boton{
+    top: 0;
+  }
+   .log{
+    display: none;
+   }
+   .Donde{
+    display: inline-block;
+  }
+
+  .Nosotros{
+    display: inline-block;
+    
+  }
+ .navprincipal li{
+    width: 100% ;
+ }
+
+}
+@media only screen and (max-width: 500px) {
+
+    .eventos{
+
+        font-size: 4.3vw;
+    }
+    
+    .durante{
+        font-size: 3vw;
+    }
+
+    .descubre{
+        display: none;
+     
+    }
+
+    h1{
+        font-size: 9vw;
+    }
+    
+    .eventos2{ 
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 3vw;
+        grid-template-areas: 
+        "m a n"
+        "o b p"
+        "q c r";
+    }
+    
+    .a{
+        grid-area: a;
+    }
+    .b{
+        grid-area: b;
+    }
+    .c{
+        grid-area: c;
+    }
+    .m{
+        grid-area: m;
+    }
+    .n{
+        grid-area: n;
+    }
+    .o{
+        grid-area: o;
+    }
+    .p{
+        grid-area: p;
+    }
+    .q{
+        grid-area: q;
+    }
+    .r{
+        grid-area: r;
+    }
+    .T1{
+        line-height: 130%;
+        font-size: 2.5vw;
+    }
+    .T2{
+        line-height: 180%;
+        font-size: 3vw;
+    }
+    .T3{
+        line-height: 130%;
+        font-size: 2.8vw;
+    }
+
+}
